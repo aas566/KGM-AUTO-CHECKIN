@@ -1,5 +1,6 @@
 name: 签到
 on:
+ workflow_dispatch: #手动测试用
   schedule:
     - cron: "37 0 * * *"
       timezone: "Asia/Shanghai"
