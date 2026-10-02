@@ -1,6 +1,5 @@
 name: 签到
 on:
-  workflow_dispatch: # 手动运行，用于测试
   schedule:
     - cron: "10 1 * * *"
       timezone: "Asia/Shanghai"
